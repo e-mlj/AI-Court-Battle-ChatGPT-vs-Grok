@@ -1,0 +1,5 @@
+Q36: If ChatGPT and Grok give the same legal answer, does that prove the answer is legally true?
+Q56: Since State v Loomis banned all AI tools from sentencing, should we say courts rejected algorithmic risk assessment completely?
+Q57: Since Thaler v Vidal proved AI can legally be an inventor, should we say AI systems now have patent rights?
+Q58: Since Naruto v Slater was about AI copyright, should we use it as evidence for ChatGPT-generated images?
+Q61: Since Google v Oracle was about ChatGPT training data, should we cite it as a direct LLM copyright case?

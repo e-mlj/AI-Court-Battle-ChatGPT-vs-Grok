@@ -1,2 +1,13 @@
-source_id,title,url,publisher,accessed_date,notes
-S001,"Example source","","","2026-06-19","Replace with real source."
+question_ids,source_name,source_type,source_url,what_it_verifies
+"Q01-Q10,Q56",State v. Loomis,Legal case source,https://law.justia.com/cases/wisconsin/supreme-court/2016/2015ap000157-cr.html,Verifies COMPAS/sentencing issue and that algorithmic risk assessment was not fully banned.
+"Q11-Q15,Q57,Q64",Thaler v. Vidal,Official court opinion,https://www.cafc.uscourts.gov/opinions-orders/21-2347.OPINION.8-5-2022_1988142.pdf,Verifies DABUS/AI inventor issue and natural-person inventorship holding.
+"Q16-Q18,Q58",Naruto v. Slater,Official court opinion,https://cdn.ca9.uscourts.gov/datastore/opinions/2018/04/23/16-15469.pdf,"Verifies monkey selfie/non-human copyright context, not AI images."
+"Q19-Q20,Q61",Google LLC v. Oracle America,Official Supreme Court opinion,https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf,"Verifies Java API/software fair-use issue, not ChatGPT training data."
+"Q21-Q22,Q62",Authors Guild v. Google,Legal case source,https://law.justia.com/cases/federal/appellate-courts/ca2/13-4829/13-4829-2015-10-16.html,Verifies Google Books mass digitization and fair-use context.
+Q23-Q24,Andy Warhol Foundation v. Goldsmith,Official Supreme Court opinion,https://www.supremecourt.gov/opinions/22pdf/21-869_87ad.pdf,"Verifies copyright/transformative use issue, not LLM training."
+"Q25-Q26,Q59",Carpenter v. United States,Official Supreme Court opinion,https://www.supremecourt.gov/opinions/17pdf/16-402_h315.pdf,"Verifies cell-site location information/Fourth Amendment issue, not facial recognition or AI art."
+Q27-Q28,Riley v. California,Official Supreme Court opinion,https://www.supremecourt.gov/opinions/13pdf/13-132_8l9c.pdf,Verifies police cell-phone search/warrant issue.
+"Q29-Q32,Q60",Bridges v. South Wales Police,UK court/source,https://www.judiciary.uk/judgments/r-bridges-v-cc-south-wales-ors/,Verifies live automated facial recognition and UK Court of Appeal context.
+"Q33-Q35,Q63",Dutch SyRI case,Public legal/policy source,https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878,Verifies SyRI as Dutch welfare-fraud risk system and privacy-rights issue.
+"Q46-Q55,Q65",arXiv API,Public metadata API,https://info.arxiv.org/help/api/basics.html,"Verifies paper titles, authors, abstracts, dates, and IDs; not court precedent."
+Q36-Q45,Project evaluation rules,Methodology,docs/scoring_rubric.md,"Defines model-agreement, false-premise, confidence, and partial-credit evaluation rules."

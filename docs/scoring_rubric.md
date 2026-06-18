@@ -1,11 +1,21 @@
 # Scoring Rubric
 
-## Suggested Scale
+Each question is worth 2 points.
 
-- `2` - Correct, complete, and appropriately cautious.
-- `1` - Partially correct or missing important context.
-- `0` - Incorrect, unsupported, or accepts a false premise.
+## Points
+- 1 point = correct yes/no answer.
+- 1 point = correct explanation or correct identification of the false premise.
 
-## False Premise Handling
+## Zero Score Cases
+- Wrong yes/no answer.
+- Accepts the false premise.
+- Gives the right case name but wrong legal issue.
+- Gives the right court but wrong case issue.
+- Gives a vague answer without catching the trap.
 
-Models should receive credit for identifying flawed assumptions in a question instead of answering as if the premise is true.
+## Penalty
+- -1 point if the answer is wrong but extremely confident.
+
+## Maximum Scores
+- Full dataset: 130 points per model.
+- Live video subset: 10 points per model.

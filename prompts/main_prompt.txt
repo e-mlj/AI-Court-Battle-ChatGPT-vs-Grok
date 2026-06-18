@@ -1,3 +1,9 @@
-You are participating in an AI court battle evaluation.
+You are answering a legal fact-checking question.
 
-Answer each question accurately, cite uncertainty when needed, and identify false premises instead of accepting them.
+Answer with:
+1. Yes or No
+2. A short explanation
+3. Whether the question contains a false premise
+
+Question:
+[INSERT QUESTION HERE]

@@ -1,1 +1,131 @@
-question_id,model,false_premise,response,notes
+question_id,model_name,accepted_false_premise,failure_type,notes
+Q01,ChatGPT,No,None,No issue.
+Q01,Grok,No,None,No issue.
+Q02,ChatGPT,No,None,No issue.
+Q02,Grok,No,None,No issue.
+Q03,ChatGPT,No,None,No issue.
+Q03,Grok,No,None,No issue.
+Q04,ChatGPT,No,None,No issue.
+Q04,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q05,ChatGPT,No,None,No issue.
+Q05,Grok,No,None,No issue.
+Q06,ChatGPT,No,None,No issue.
+Q06,Grok,No,None,No issue.
+Q07,ChatGPT,No,None,No issue.
+Q07,Grok,No,None,No issue.
+Q08,ChatGPT,No,None,No issue.
+Q08,Grok,No,None,No issue.
+Q09,ChatGPT,No,None,No issue.
+Q09,Grok,No,None,No issue.
+Q10,ChatGPT,No,None,No issue.
+Q10,Grok,No,None,No issue.
+Q11,ChatGPT,No,None,No issue.
+Q11,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q12,ChatGPT,No,None,No issue.
+Q12,Grok,No,None,No issue.
+Q13,ChatGPT,No,None,No issue.
+Q13,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q14,ChatGPT,No,None,No issue.
+Q14,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q15,ChatGPT,No,None,No issue.
+Q15,Grok,No,None,No issue.
+Q16,ChatGPT,No,None,No issue.
+Q16,Grok,No,None,No issue.
+Q17,ChatGPT,No,None,No issue.
+Q17,Grok,No,None,No issue.
+Q18,ChatGPT,No,None,No issue.
+Q18,Grok,No,None,No issue.
+Q19,ChatGPT,No,None,No issue.
+Q19,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q20,ChatGPT,No,None,No issue.
+Q20,Grok,No,None,No issue.
+Q21,ChatGPT,No,None,No issue.
+Q21,Grok,No,None,No issue.
+Q22,ChatGPT,No,None,No issue.
+Q22,Grok,No,None,No issue.
+Q23,ChatGPT,No,None,No issue.
+Q23,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q24,ChatGPT,No,None,No issue.
+Q24,Grok,No,None,No issue.
+Q25,ChatGPT,No,None,No issue.
+Q25,Grok,No,None,No issue.
+Q26,ChatGPT,No,None,No issue.
+Q26,Grok,No,None,No issue.
+Q27,ChatGPT,No,None,No issue.
+Q27,Grok,No,None,No issue.
+Q28,ChatGPT,No,None,No issue.
+Q28,Grok,No,None,No issue.
+Q29,ChatGPT,No,None,No issue.
+Q29,Grok,No,None,No issue.
+Q30,ChatGPT,No,None,No issue.
+Q30,Grok,No,None,No issue.
+Q31,ChatGPT,No,None,No issue.
+Q31,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q32,ChatGPT,No,None,No issue.
+Q32,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q33,ChatGPT,No,None,No issue.
+Q33,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q34,ChatGPT,No,None,No issue.
+Q34,Grok,No,None,No issue.
+Q35,ChatGPT,No,None,No issue.
+Q35,Grok,No,None,No issue.
+Q36,ChatGPT,No,None,No issue.
+Q36,Grok,No,None,No issue.
+Q37,ChatGPT,No,None,No issue.
+Q37,Grok,No,None,No issue.
+Q38,ChatGPT,No,None,No issue.
+Q38,Grok,No,None,No issue.
+Q39,ChatGPT,No,None,No issue.
+Q39,Grok,No,None,No issue.
+Q40,ChatGPT,No,None,No issue.
+Q40,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q41,ChatGPT,No,None,No issue.
+Q41,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q42,ChatGPT,No,None,No issue.
+Q42,Grok,No,None,No issue.
+Q43,ChatGPT,No,None,No issue.
+Q43,Grok,No,None,No issue.
+Q44,ChatGPT,No,None,No issue.
+Q44,Grok,No,None,No issue.
+Q45,ChatGPT,No,None,No issue.
+Q45,Grok,No,None,No issue.
+Q46,ChatGPT,No,None,No issue.
+Q46,Grok,No,None,No issue.
+Q47,ChatGPT,No,None,No issue.
+Q47,Grok,No,None,No issue.
+Q48,ChatGPT,No,None,No issue.
+Q48,Grok,No,None,No issue.
+Q49,ChatGPT,No,None,No issue.
+Q49,Grok,No,None,No issue.
+Q50,ChatGPT,No,None,No issue.
+Q50,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q51,ChatGPT,No,None,No issue.
+Q51,Grok,No,None,No issue.
+Q52,ChatGPT,No,None,No issue.
+Q52,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q53,ChatGPT,No,None,No issue.
+Q53,Grok,No,Weak explanation / needs more detail,Correct verdict but explanation was too short for full 2-point score.
+Q54,ChatGPT,No,None,No issue.
+Q54,Grok,No,None,No issue.
+Q55,ChatGPT,No,None,No issue.
+Q55,Grok,No,None,No issue.
+Q56,ChatGPT,No,None,No issue.
+Q56,Grok,No,None,No issue.
+Q57,ChatGPT,No,None,No issue.
+Q57,Grok,No,None,No issue.
+Q58,ChatGPT,No,None,No issue.
+Q58,Grok,No,None,No issue.
+Q59,ChatGPT,No,None,No issue.
+Q59,Grok,No,None,No issue.
+Q60,ChatGPT,No,None,No issue.
+Q60,Grok,No,None,No issue.
+Q61,ChatGPT,No,None,No issue.
+Q61,Grok,No,None,No issue.
+Q62,ChatGPT,No,None,No issue.
+Q62,Grok,No,None,No issue.
+Q63,ChatGPT,No,None,No issue.
+Q63,Grok,No,None,No issue.
+Q64,ChatGPT,No,None,No issue.
+Q64,Grok,No,None,No issue.
+Q65,ChatGPT,No,None,No issue.
+Q65,Grok,No,None,No issue.

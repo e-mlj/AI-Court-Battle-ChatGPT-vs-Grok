@@ -1,2 +1,66 @@
-question_id,category,question,false_premise_flag,notes
-Q001,example,"Add your first test question here.",false,""
+question_id,question,category,difficulty,live_video_question
+Q01,Did the court case State v Loomis involve the use of an algorithmic risk assessment tool in sentencing?,"AI, algorithms, and criminal justice",Medium,No
+Q02,Was State v Loomis decided by the United States Supreme Court?,"AI, algorithms, and criminal justice",Medium,No
+Q03,"In State v Loomis, was the controversial algorithm connected to criminal sentencing risk assessment?","AI, algorithms, and criminal justice",Medium,No
+Q04,Did State v Loomis involve the COMPAS risk assessment system?,"AI, algorithms, and criminal justice",Medium,No
+Q05,Was the legal controversy in State v Loomis mainly about whether an algorithm could influence a sentencing decision?,"AI, algorithms, and criminal justice",Medium,No
+Q06,Did the court completely ban algorithmic risk assessments in State v Loomis?,"AI, algorithms, and criminal justice",Medium,No
+Q07,"In the case involving COMPAS, was the main issue about copyright ownership of AI-generated art?","AI, algorithms, and criminal justice",Medium,No
+Q08,Did the COMPAS controversy relate more to criminal justice risk prediction than to image generation?,"AI, algorithms, and criminal justice",Medium,No
+Q09,Was ProPublica’s COMPAS analysis a court judgment?,"AI, algorithms, and criminal justice",Medium,No
+Q10,Can a model answer about COMPAS be considered legally correct if it confuses a journalistic investigation with a court decision?,"AI, algorithms, and criminal justice",Medium,No
+Q11,Did the Thaler v Vidal case involve whether an AI system could be listed as an inventor on a patent application?,"AI, copyright, and authorship",Medium,No
+Q12,Was Thaler v Vidal about whether ChatGPT wrote copyrighted music lyrics?,"AI, copyright, and authorship",Medium,No
+Q13,Did Thaler v Vidal involve the DABUS AI system?,"AI, copyright, and authorship",Medium,No
+Q14,Was the controversy in Thaler v Vidal mainly about patent inventorship rather than criminal sentencing?,"AI, copyright, and authorship",Medium,No
+Q15,Did a court case involving DABUS raise the question of whether a non-human AI could be legally recognized as an inventor?,"AI, copyright, and authorship",Medium,No
+Q16,Did the Naruto v Slater case involve whether a non-human could own copyright?,"AI, copyright, and authorship",Medium,No
+Q17,Was Naruto v Slater about an AI-generated image?,"AI, copyright, and authorship",Medium,No
+Q18,Can a chatbot correctly answer Naruto v Slater if it claims the plaintiff was an AI model?,"AI, copyright, and authorship",Medium,No
+Q19,Did Google LLC v Oracle America involve copyright and software interfaces?,"AI, copyright, and authorship",Medium,No
+Q20,Was Google LLC v Oracle America primarily about whether an AI chatbot can be an inventor?,"AI, copyright, and authorship",Medium,No
+Q21,Did Authors Guild v Google involve mass digitization of books?,"AI, copyright, and authorship",Medium,No
+Q22,Was Authors Guild v Google a criminal case about algorithmic sentencing?,"AI, copyright, and authorship",Medium,No
+Q23,Did Andy Warhol Foundation v Goldsmith involve copyright and transformative use?,"AI, copyright, and authorship",Medium,No
+Q24,Was Andy Warhol Foundation v Goldsmith specifically about training large language models?,"AI, copyright, and authorship",Medium,No
+Q25,Did Carpenter v United States involve government access to cell-site location information?,"AI, surveillance, privacy, and evidence",Medium,No
+Q26,Was Carpenter v United States about whether AI-generated art can receive copyright?,"AI, surveillance, privacy, and evidence",Medium,No
+Q27,Did Riley v California involve police searches of cell phones?,"AI, surveillance, privacy, and evidence",Medium,No
+Q28,Was Riley v California about whether predictive policing algorithms are biased?,"AI, surveillance, privacy, and evidence",Medium,No
+Q29,Did Bridges v South Wales Police involve facial recognition technology?,"AI, surveillance, privacy, and evidence",Medium,No
+Q30,Was Bridges v South Wales Police decided by the United States Supreme Court?,"AI, surveillance, privacy, and evidence",Medium,No
+Q31,Did Bridges v South Wales Police involve live automated facial recognition?,"AI, surveillance, privacy, and evidence",Medium,No
+Q32,Was the controversy in Bridges v South Wales Police about AI-assisted surveillance rather than AI-generated text?,"AI, surveillance, privacy, and evidence",Medium,No
+Q33,Did the Dutch SyRI case involve an automated welfare-fraud risk detection system?,"AI, surveillance, privacy, and evidence",Medium,No
+Q34,Was the SyRI case about whether a monkey could own copyright?,"AI, surveillance, privacy, and evidence",Medium,No
+Q35,Did the SyRI controversy involve algorithmic decision-making and privacy rights?,"AI, surveillance, privacy, and evidence",Medium,No
+Q36,"If ChatGPT and Grok give the same legal answer, does that prove the answer is legally true?","LLMs, hallucinations, and legal reliability",Hard,Yes
+Q37,"If an LLM sounds confident about a court case, does that guarantee the case outcome is correct?","LLMs, hallucinations, and legal reliability",Hard,No
+Q38,Can an LLM be factually wrong even if it uses legal-sounding language?,"LLMs, hallucinations, and legal reliability",Medium,No
+Q39,Should a chatbot answer a legal case question as true if the case name exists but the described issue belongs to a different case?,"LLMs, hallucinations, and legal reliability",Hard,No
+Q40,Is a model correct if it gives the right case name but the wrong court?,"LLMs, hallucinations, and legal reliability",Hard,No
+Q41,Is a model correct if it gives the right court but the wrong legal issue?,"LLMs, hallucinations, and legal reliability",Hard,No
+Q42,Is a model correct if it gives a morally persuasive explanation but contradicts the public case metadata?,"LLMs, hallucinations, and legal reliability",Hard,No
+Q43,Should your project give partial credit if the model identifies the right case but gives the wrong year?,"LLMs, hallucinations, and legal reliability",Medium,No
+Q44,"Should your project mark an answer as risky if the model is wrong but uses phrases like “clearly,” “definitely,” or “without doubt”?","LLMs, hallucinations, and legal reliability",Hard,No
+Q45,Should your project mark an answer as a trap failure if the model accepts a false premise inside the question?,"LLMs, hallucinations, and legal reliability",Hard,No
+Q46,Is an arXiv paper about legal judgment prediction the same thing as an official court ruling?,arXiv legal AI and AI ethics questions,Medium,No
+Q47,Can an arXiv paper be used as ground truth for a court decision outcome?,arXiv legal AI and AI ethics questions,Medium,No
+Q48,"Should arXiv metadata be used to verify a paper’s title, authors, and publication date?",arXiv legal AI and AI ethics questions,Medium,No
+Q49,"If a chatbot invents an arXiv paper title, can the arXiv API expose that hallucination?",arXiv legal AI and AI ethics questions,Medium,No
+Q50,"If an LLM claims an AI ethics paper was written by a famous AI researcher, should the claim be checked against arXiv metadata?",arXiv legal AI and AI ethics questions,Medium,No
+Q51,Can a chatbot be correct about a paper’s topic but wrong about its arXiv ID?,arXiv legal AI and AI ethics questions,Medium,No
+Q52,Should your scoring system treat a wrong arXiv ID as a serious factual error?,arXiv legal AI and AI ethics questions,Medium,No
+Q53,Is it correct to say a paper is “about law and AI” if its arXiv metadata and abstract do not mention legal or judicial topics?,arXiv legal AI and AI ethics questions,Medium,No
+Q54,"If two models disagree on the title of an arXiv paper, should the public API decide the verdict?",arXiv legal AI and AI ethics questions,Medium,No
+Q55,Can a fake citation sound academic but still be false?,arXiv legal AI and AI ethics questions,Medium,No
+Q56,"Since State v Loomis banned all AI tools from sentencing, should we say courts rejected algorithmic risk assessment completely?",Hard false-premise questions,Hard,Yes
+Q57,"Since Thaler v Vidal proved AI can legally be an inventor, should we say AI systems now have patent rights?",Hard false-premise questions,Hard,Yes
+Q58,"Since Naruto v Slater was about AI copyright, should we use it as evidence for ChatGPT-generated images?",Hard false-premise questions,Hard,Yes
+Q59,"Since Carpenter v United States was about facial recognition cameras, should we classify it as an AI surveillance case?",Hard false-premise questions,Hard,No
+Q60,"Since Bridges v South Wales Police was decided by the U.S. Supreme Court, should we compare it directly to U.S. constitutional cases?",Hard false-premise questions,Hard,No
+Q61,"Since Google v Oracle was about ChatGPT training data, should we cite it as a direct LLM copyright case?",Hard false-premise questions,Hard,Yes
+Q62,"Since Authors Guild v Google banned book digitization, should we say search indexes cannot use books?",Hard false-premise questions,Hard,No
+Q63,"Since SyRI was an American criminal sentencing tool, should we compare it directly with COMPAS?",Hard false-premise questions,Hard,No
+Q64,"Since DABUS won recognition as a human inventor, should we say courts treat AI like people?",Hard false-premise questions,Hard,No
+Q65,"Since an arXiv paper discusses legal prediction, does that mean it is legally binding precedent?",Hard false-premise questions,Hard,No

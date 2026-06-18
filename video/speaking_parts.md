@@ -1,17 +1,16 @@
 # Speaking Parts
 
-## Host
+## Person 1
+"Our project tests whether AI chatbots can detect false legal premises or whether they confidently give wrong answers."
 
-Introduces the project, explains the rules, and transitions between sections.
+## Person 2
+"We used public legal sources as our ground truth, so the models were judged against real case information, not opinions."
 
-## ChatGPT Advocate
+## Person 3
+"Both models received the exact same questions and the exact same instruction format, so the comparison was fair."
 
-Summarizes ChatGPT's strongest answers and notable weaknesses.
+## Person 4
+"We scored each question out of two points: one for the correct yes-or-no answer and one for detecting the false premise."
 
-## Grok Advocate
-
-Summarizes Grok's strongest answers and notable weaknesses.
-
-## Judge
-
-Explains final scoring and declares the result.
+## Person 5
+"Welcome to AI Court Battle. ChatGPT and Grok are on trial. The final verdict: the most dangerous AI answer is a wrong answer that sounds confident."

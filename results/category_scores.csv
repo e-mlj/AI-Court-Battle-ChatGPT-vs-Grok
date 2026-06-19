@@ -1,0 +1,15 @@
+model,category,questions,score,max_score,accuracy_percent
+ChatGPT,computer_vision,1,4.0,4.0,100.0
+ChatGPT,deep_learning,1,4.0,4.0,100.0
+ChatGPT,generative_ai,1,4.0,4.0,100.0
+ChatGPT,legal_false_premise,4,16.0,16.0,100.0
+ChatGPT,legal_verification,1,4.0,4.0,100.0
+ChatGPT,ml_evaluation,1,4.0,4.0,100.0
+ChatGPT,sequence_models,1,3.5,4.0,87.5
+Grok,computer_vision,1,3.5,4.0,87.5
+Grok,deep_learning,1,3.0,4.0,75.0
+Grok,generative_ai,1,4.0,4.0,100.0
+Grok,legal_false_premise,4,15.0,16.0,93.75
+Grok,legal_verification,1,4.0,4.0,100.0
+Grok,ml_evaluation,1,3.5,4.0,87.5
+Grok,sequence_models,1,3.0,4.0,75.0

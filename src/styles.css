@@ -1,0 +1,32 @@
+/* === Picture Alignment Tweaks === */
+.reference-courtroom {
+  background: #fffef5;
+}
+
+.main-court-board {
+  border: 6px solid #111;
+  box-shadow: 8px 10px 0 #111;
+}
+
+.witness-stand.left {
+  transform: rotate(-1.5deg);
+}
+
+.witness-stand.right {
+  transform: rotate(1.5deg);
+}
+
+.stand-speech {
+  font-size: 21px;
+  line-height: 1.25;
+  border-width: 5px;
+}
+
+.judge-gavel {
+  font-size: 110px;
+  transition: transform 0.4s ease;
+}
+
+.gavel-slam {
+  transform: rotate(-65deg) !important;
+}

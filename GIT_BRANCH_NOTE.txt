@@ -1,0 +1,2 @@
+Git branch auto-creation failed in this environment: Command '['git', 'checkout', 'main']' returned non-zero exit status 1.
+Use scripts/create-git-branches.ps1 or .sh locally.

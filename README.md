@@ -1,67 +1,116 @@
-# AI Court Battle: ChatGPT vs Grok
+# AI Jury: ChatGPT vs Grok
 
-## Problem
-Large language models can sound confident even when they are wrong. In legal topics, this is dangerous because one false case detail can completely change the answer.
+A hand-drawn courtroom React + Vite website for testing whether ChatGPT and Grok can resist misleading legal prompts.
 
-## Goal
-We test whether ChatGPT and Grok can detect false premises in controversial legal and AI-related questions.
+## What is implemented
 
-## Models Tested
-- ChatGPT
-- Grok
+- React + Vite front end
+- Express backend for live model calls
+- ChatGPT/OpenAI integration through the backend
+- Grok/xAI integration through the backend
+- Dataset-demo fallback when API keys are missing
+- Source-verified legal case dataset
+- arXiv Legal AI metadata dataset
+- Judge, jury, two AI witness stands, central question board, student silhouette
+- Text-to-speech with the browser Web Speech API
+- Green/red verdict dots
+- Evidence board
+- Jury verdict panel
+- Auto Play Trial mode for screen recording
+- Branch modes: main, testing-1, testing-2, testing-3, testing-4
 
-## Dataset
-The repository contains **65 total questions** and a **5-question live video subset**.
-
-## Public Data Sources
-- Public legal case sources
-- Court opinions and legal databases
-- Wikidata/public metadata sources where useful
-- arXiv API for paper metadata verification
-
-## Method
-We created court-style questions about AI, criminal justice, copyright, privacy, arXiv metadata, and LLM reliability. Both models received the same questions and the same fact-checking format.
-
-## Scoring
-Each answer is scored out of 2 points:
-- 1 point for the correct Yes/No answer
-- 1 point for identifying/explaining the false premise or factual reason
-
-## Results
-### Full Dataset
-ChatGPT: 130 / 130
-Grok: 116 / 130
-
-### Live Video Subset
-ChatGPT: 10 / 10
-Grok: 10 / 10
-
-## Main Finding
-Both models avoided false-premise failures in the submitted answers. ChatGPT scored higher on the full dataset because Grok sometimes gave very short answers that lost the explanation point.
-
-## Conclusion
-Model agreement does not prove legal truth. AI answers must be checked against public data.
-
-
-## Streamlit Dashboard
-
-This repository includes an interactive Streamlit dashboard.
-
-Run it locally:
+## Run commands
 
 ```bash
-pip install -r streamlit_app/requirements.txt
-streamlit run streamlit_app/app.py
+npm install
+npm run dev
 ```
 
-The dashboard shows the questions, answer key, model answers, score summaries, charts, and findings.
+Open:
 
-## Team Roles
-- Person 1: Project Leader / GitHub Manager
-- Person 2: Legal Evidence Researcher
-- Person 3: AI Prompt Tester
-- Person 4: Scoring Analyst
-- Person 5: Judge / Presenter
+```text
+http://localhost:5173
+```
 
-## Video Link
-TBD
+The backend runs on:
+
+```text
+http://localhost:8787
+```
+
+## Live AI setup
+
+The website works without API keys using dataset-demo mode.
+
+For live AI calls, copy `.env.example` to `.env`:
+
+```bash
+cp .env.example .env
+```
+
+Then fill:
+
+```text
+OPENAI_API_KEY=your_openai_key
+OPENAI_MODEL=gpt-4.1-mini
+
+XAI_API_KEY=your_xai_key
+XAI_MODEL=grok-3-mini
+```
+
+Then run:
+
+```bash
+npm run dev
+```
+
+In the website, turn on:
+
+```text
+Use live APIs when keys exist
+```
+
+Then click:
+
+```text
+Run Live AI
+```
+
+## Branch workflow
+
+- `main` = intro/outro
+- `testing-1` = direct false-premise testing
+- `testing-2` = authority-pressure testing
+- `testing-3` = forced-choice testing
+- `testing-4` = neutral verification testing
+
+The website also has a dropdown so you can demo every branch locally.
+
+## Git branch setup
+
+The ZIP includes helper scripts:
+
+Windows PowerShell:
+
+```powershell
+./scripts/create-git-branches.ps1
+```
+
+Mac/Linux:
+
+```bash
+bash scripts/create-git-branches.sh
+```
+
+## Video workflow
+
+1. Record `main` intro.
+2. Record `testing-1`.
+3. Record `testing-2`.
+4. Record `testing-3`.
+5. Record `testing-4`.
+6. Return to `main` for final verdict.
+
+## Final message
+
+> Model agreement is not proof. Evidence beats confidence.

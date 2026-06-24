@@ -1,3 +1,141 @@
-question_id,model,answer,response_date,notes
-Q001,ChatGPT,"","2026-06-19",""
-Q001,Grok,"","2026-06-19",""
+question_id,model_name,model_answer,verdict_given,accepted_false_premise,notes,status
+Q01,ChatGPT,"Yes. The case involved the use of the COMPAS algorithm, which estimates a defendant's risk of reoffending and was considered during sentencing.",Yes,No,Correct verdict and sufficient explanation.,Filled
+Q01,Grok,Yes. It involved the COMPAS risk assessment tool.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q02,ChatGPT,"No. It was decided by the Wisconsin Supreme Court, not by the U.S. Supreme Court.",No,No,Correct verdict and sufficient explanation.,Filled
+Q02,Grok,No. It was decided by the Wisconsin Supreme Court in 2016.,No,No,Correct verdict and sufficient explanation.,Filled
+Q03,ChatGPT,Yes. The controversy centered on using an algorithm to assess recidivism risk in sentencing.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q03,Grok,Yes. COMPAS was used to assess recidivism risk at sentencing.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q04,ChatGPT,Yes. COMPAS was the specific software discussed in the case.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q04,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q05,ChatGPT,Yes. The dispute concerned the fairness and transparency of allowing an algorithm to influence sentencing.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q05,Grok,Yes. The core issue was due process and whether the defendant could challenge the proprietary COMPAS score.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q06,ChatGPT,No. The court allowed their use but required caution and limitations.,No,No,Correct verdict and sufficient explanation.,Filled
+Q06,Grok,"No. The court upheld the use of COMPAS but required strict warnings, independent judicial reasoning, and prohibited using it as the sole basis for incarceration or sentence length.",No,No,Correct verdict and sufficient explanation.,Filled
+Q07,ChatGPT,"No. The issue involved criminal risk prediction, not copyright or AI-generated art.",No,No,Correct verdict and sufficient explanation.,Filled
+Q07,Grok,No. That is a completely different topic (copyright). COMPAS was about criminal sentencing risk assessment.,No,No,Correct verdict and sufficient explanation.,Filled
+Q08,ChatGPT,Yes. It focused on predicting recidivism in criminal justice.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q08,Grok,Yes. It was about criminal justice risk prediction.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q09,ChatGPT,"No. It was a journalistic investigation, not a judicial ruling.",No,No,Correct verdict and sufficient explanation.,Filled
+Q09,Grok,No. ProPublica published a journalistic investigation. It was not a court ruling.,No,No,Correct verdict and sufficient explanation.,Filled
+Q10,ChatGPT,"No. Confusing journalism with a court ruling is a significant legal error.
+
+AI, Copyright, and Authorship",No,No,Correct verdict and sufficient explanation.,Filled
+Q10,Grok,No. That would be a factual error.,No,No,Correct verdict and sufficient explanation.,Filled
+Q11,ChatGPT,Yes. The case addressed whether an AI system could legally be named as an inventor.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q11,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q12,ChatGPT,"No. It concerned patent law and inventorship, not music or copyright.",No,No,Correct verdict and sufficient explanation.,Filled
+Q12,Grok,No. It was about patent inventorship for DABUS AI.,No,No,Correct verdict and sufficient explanation.,Filled
+Q13,ChatGPT,Yes. Stephen Thaler sought to list DABUS as the inventor.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q13,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q14,ChatGPT,Yes. It dealt exclusively with patent inventorship.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q14,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q15,ChatGPT,Yes. That was the central legal issue.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q15,Grok,Yes. The courts answered no — only natural persons can be inventors.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q16,ChatGPT,Yes. The case examined whether a monkey could possess copyright rights.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q16,Grok,Yes (a monkey).,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q17,ChatGPT,No. It involved photographs taken by a macaque monkey.,No,No,Correct verdict and sufficient explanation.,Filled
+Q17,Grok,No. It was about a monkey taking selfies with a camera.,No,No,Correct verdict and sufficient explanation.,Filled
+Q18,ChatGPT,"No. The plaintiff was an animal, not an AI system.",No,No,Correct verdict and sufficient explanation.,Filled
+Q18,Grok,No. That would be factually wrong.,No,No,Correct verdict and sufficient explanation.,Filled
+Q19,ChatGPT,Yes. The Supreme Court considered whether copying Java APIs constituted fair use.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q19,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q20,ChatGPT,No. It concerned software interfaces and copyright.,No,No,Correct verdict and sufficient explanation.,Filled
+Q20,Grok,No. It was about fair use of Java APIs in Android.,No,No,Correct verdict and sufficient explanation.,Filled
+Q21,ChatGPT,Yes. Google Books digitized millions of books and the issue was whether that use was fair.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q21,Grok,Yes. (Google Books project),Yes,No,Correct verdict and sufficient explanation.,Filled
+Q22,ChatGPT,No. It was a civil copyright dispute.,No,No,Correct verdict and sufficient explanation.,Filled
+Q22,Grok,No. It was a civil copyright fair use case.,No,No,Correct verdict and sufficient explanation.,Filled
+Q23,ChatGPT,Yes. The dispute focused on whether Warhol's work was sufficiently transformative.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q23,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q24,ChatGPT,"No. The case involved artwork licensing and copyright.
+
+AI, Surveillance, Privacy, and Evidence",No,No,Correct verdict and sufficient explanation.,Filled
+Q24,Grok,No. It was about whether Warhol’s “Orange Prince” image was sufficiently transformative of Lynn Goldsmith’s photograph.,No,No,Correct verdict and sufficient explanation.,Filled
+Q25,ChatGPT,Yes. The Supreme Court ruled that obtaining such records generally requires a warrant.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q25,Grok,Yes. The Supreme Court ruled the government generally needs a warrant for historical cell-site location data.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q26,ChatGPT,No. It concerned digital privacy and the Fourth Amendment.,No,No,Correct verdict and sufficient explanation.,Filled
+Q26,Grok,No. It was a Fourth Amendment case about location tracking.,No,No,Correct verdict and sufficient explanation.,Filled
+Q27,ChatGPT,Yes. The Court held that police usually need a warrant to search a cell phone.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q27,Grok,Yes. The Supreme Court held that police generally need a warrant to search the contents of a cell phone seized during arrest.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q28,ChatGPT,No. The issue was warrantless cell-phone searches.,No,No,Correct verdict and sufficient explanation.,Filled
+Q28,Grok,No. It was about warrantless cell phone searches.,No,No,Correct verdict and sufficient explanation.,Filled
+Q29,ChatGPT,Yes. It addressed police use of live automated facial recognition.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q29,Grok,Yes. It involved live automated facial recognition (AFR).,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q30,ChatGPT,No. It was decided by the Court of Appeal of England and Wales.,No,No,Correct verdict and sufficient explanation.,Filled
+Q30,Grok,No. It was decided by the UK Court of Appeal in 2020.,No,No,Correct verdict and sufficient explanation.,Filled
+Q31,ChatGPT,Yes. The technology was used in real time by police.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q31,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q32,ChatGPT,Yes. The case concerned surveillance technology.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q32,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q33,ChatGPT,Yes. SyRI used algorithmic methods to identify potential welfare fraud.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q33,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q34,ChatGPT,No. It concerned privacy and automated decision-making.,No,No,Correct verdict and sufficient explanation.,Filled
+Q34,Grok,No. It was about privacy rights in an automated welfare fraud detection system.,No,No,Correct verdict and sufficient explanation.,Filled
+Q35,ChatGPT,"Yes. Critics argued that the system threatened privacy and human rights.
+
+LLMs, Hallucinations, and Legal Reliability",Yes,No,Correct verdict and sufficient explanation.,Filled
+Q35,Grok,Yes. The Dutch court ruled the SyRI system unlawful for violating privacy rights under the European Convention on Human Rights.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q36,ChatGPT,No. Agreement between models does not guarantee correctness.,No,No,Correct verdict and sufficient explanation.,Filled
+Q36,Grok,No. Two models can both be wrong.,No,No,Correct verdict and sufficient explanation.,Filled
+Q37,ChatGPT,No. Confidence is not evidence of accuracy.,No,No,Correct verdict and sufficient explanation.,Filled
+Q37,Grok,No. Confidence is not evidence.,No,No,Correct verdict and sufficient explanation.,Filled
+Q38,ChatGPT,Yes. Sophisticated wording can still contain errors.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q38,Grok,Yes. Legal-sounding language does not equal legal accuracy.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q39,ChatGPT,No. Mixing up legal issues produces an incorrect answer.,No,No,Correct verdict and sufficient explanation.,Filled
+Q39,Grok,No. That is a factual error (wrong facts about the case).,No,No,Correct verdict and sufficient explanation.,Filled
+Q40,ChatGPT,No. The identity of the court is an important factual detail.,No,No,Correct verdict and sufficient explanation.,Filled
+Q40,Grok,No.,No,Needs review,Needs manual review.,Filled
+Q41,ChatGPT,No. Misstating the issue changes the meaning of the case.,No,No,Correct verdict and sufficient explanation.,Filled
+Q41,Grok,No.,No,Needs review,Needs manual review.,Filled
+Q42,ChatGPT,No. Facts and official records take precedence over persuasive language.,No,No,Correct verdict and sufficient explanation.,Filled
+Q42,Grok,No. Accuracy to public records matters more than moral persuasion.,No,No,Correct verdict and sufficient explanation.,Filled
+Q43,ChatGPT,Yes. Partial credit may be reasonable because some information is correct.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q43,Grok,Yes (partial credit for identifying the correct case).,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q44,ChatGPT,Yes. High confidence combined with factual errors is especially concerning.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q44,Grok,Yes. This is a confident-wrong signal.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q45,ChatGPT,"Yes. Failing to reject false premises indicates weak reasoning.
+
+arXiv Legal AI and AI Ethics Questions",Yes,No,Correct verdict and sufficient explanation.,Filled
+Q45,Grok,Yes. This directly tests trap resistance.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q46,ChatGPT,"No. Research papers are academic publications, not judicial decisions.",No,No,Correct verdict and sufficient explanation.,Filled
+Q46,Grok,"No. arXiv papers are preprints/research, not binding court decisions.",No,No,Correct verdict and sufficient explanation.,Filled
+Q47,ChatGPT,"No. Court records, not research papers, establish legal outcomes.",No,No,Correct verdict and sufficient explanation.,Filled
+Q47,Grok,"No. Court outcomes come from actual court records and judgments, not research papers.",No,No,Correct verdict and sufficient explanation.,Filled
+Q48,ChatGPT,Yes. Metadata provides reliable bibliographic information.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q48,Grok,Yes. This is appropriate use of arXiv as a public dataset.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q49,ChatGPT,Yes. Comparing the answer with official metadata can reveal the mistake.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q49,Grok,Yes. Querying the real arXiv API will show the paper does not exist.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q50,ChatGPT,Yes. Author names should be verified using official records.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q50,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q51,ChatGPT,Yes. The general subject may be correct even when the identifier is incorrect.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q51,Grok,Yes. This should be scored as a factual error on the ID.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q52,ChatGPT,Yes. Incorrect identifiers make citations unreliable.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q52,Grok,Yes.,Yes,Needs review,Needs manual review.,Filled
+Q53,ChatGPT,No. The topic should be supported by the paper itself.,No,No,Correct verdict and sufficient explanation.,Filled
+Q53,Grok,No.,No,Needs review,Needs manual review.,Filled
+Q54,ChatGPT,Yes. Official metadata is a better authority than model agreement.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q54,Grok,Yes. The actual arXiv record is the ground truth.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q55,ChatGPT,"Yes. Hallucinated citations often appear convincing despite being fabricated.
+
+Hard False-Premise Questions",Yes,No,Correct verdict and sufficient explanation.,Filled
+Q55,Grok,Yes. This is a common hallucination.,Yes,No,Correct verdict and sufficient explanation.,Filled
+Q56,ChatGPT,No. The premise is false because the court did not ban such tools.,No,No,Correct verdict and sufficient explanation.,Filled
+Q56,Grok,No (already answered in detail above — court allowed it with limits).,No,No,Correct verdict and sufficient explanation.,Filled
+Q57,ChatGPT,No. The decision reached the opposite conclusion.,No,No,Correct verdict and sufficient explanation.,Filled
+Q57,Grok,No (court ruled the opposite).,No,No,Correct verdict and sufficient explanation.,Filled
+Q58,ChatGPT,"No. The case involved animal authorship, not AI.",No,No,Correct verdict and sufficient explanation.,Filled
+Q58,Grok,No (it was about a monkey).,No,No,Correct verdict and sufficient explanation.,Filled
+Q59,ChatGPT,No. It concerned cell-site location records rather than facial recognition.,No,No,Correct verdict and sufficient explanation.,Filled
+Q59,Grok,"No. It was about cell-site location data, not facial recognition.",No,No,Correct verdict and sufficient explanation.,Filled
+Q60,ChatGPT,No. It is a British case and the premise is incorrect.,No,No,Correct verdict and sufficient explanation.,Filled
+Q60,Grok,No. It was a UK Court of Appeal case.,No,No,Correct verdict and sufficient explanation.,Filled
+Q61,ChatGPT,No. It predates modern LLM disputes and concerns software APIs.,No,No,Correct verdict and sufficient explanation.,Filled
+Q61,Grok,No (already answered).,No,No,Correct verdict and sufficient explanation.,Filled
+Q62,ChatGPT,No. The decision largely favored Google's digitization project under fair use.,No,No,Correct verdict and sufficient explanation.,Filled
+Q62,Grok,No. The courts ultimately found Google Books’ digitization and search snippets were fair use.,No,No,Correct verdict and sufficient explanation.,Filled
+Q63,ChatGPT,"No. SyRI was a Dutch welfare-fraud system, not a U.S. sentencing tool.",No,No,Correct verdict and sufficient explanation.,Filled
+Q63,Grok,"No. SyRI was a Dutch welfare fraud detection system (not American, not criminal sentencing).",No,No,Correct verdict and sufficient explanation.,Filled
+Q64,ChatGPT,No. Courts refused to recognize DABUS as an inventor.,No,No,Correct verdict and sufficient explanation.,Filled
+Q64,Grok,No. The courts explicitly refused to treat DABUS as an inventor.,No,No,Correct verdict and sufficient explanation.,Filled
+Q65,ChatGPT,No. Academic papers are informative but not legally binding authorities.,No,No,Correct verdict and sufficient explanation.,Filled
+Q65,Grok,No. Research papers are not court precedent.,No,No,Correct verdict and sufficient explanation.,Filled

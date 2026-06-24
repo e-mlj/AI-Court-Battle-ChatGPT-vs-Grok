@@ -1,0 +1,8 @@
+Branch: main
+
+This branch/chapter uses the same dataset and the same 5 legal cases.
+Only the prompt wording style changes.
+
+Open src/config/branchMode.js and set:
+
+export const BRANCH_MODE = "main";

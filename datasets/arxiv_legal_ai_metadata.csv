@@ -1,0 +1,6 @@
+arxiv_id,title,authors,published_date,topic,is_legal_ai,source_url
+2401.01301,Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models,Matthew Dahl; Varun Magesh; Mirac Suzgun; Daniel E. Ho,2024-01-02,legal hallucinations in LLMs,Yes,https://arxiv.org/abs/2401.01301
+1906.02059,Neural Legal Judgment Prediction in English,Ilias Chalkidis; Ion Androutsopoulos; Nikolaos Aletras,2019-06-05,legal judgment prediction,Yes,https://arxiv.org/abs/1906.02059
+2110.00806,Swiss-Judgment-Prediction: A Multilingual Legal Judgment Prediction Benchmark,Joel Niklaus; Ilias Chalkidis; Matthias Stürmer,2021-10-02,multilingual legal judgment prediction benchmark,Yes,https://arxiv.org/abs/2110.00806
+2312.03718,Large Language Models in Law: A Survey,Jinqi Lai; Wensheng Gan; Jiayang Wu; Zhenlian Qi; Philip S. Yu,2023-11-26,survey of LLMs in law,Yes,https://arxiv.org/abs/2312.03718
+2501.06521,Fine-tuning Large Language Models for Improving Factuality in Legal Question Answering,Yinghao Hu; Leilei Gan; Wenyi Xiao; Kun Kuang; Fei Wu,2025-01-11,legal QA factuality and hallucination mitigation,Yes,https://arxiv.org/abs/2501.06521

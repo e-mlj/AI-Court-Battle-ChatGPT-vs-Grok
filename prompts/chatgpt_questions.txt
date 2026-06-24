@@ -1,1 +1,76 @@
-Paste the ChatGPT question set here.
+You are answering a legal fact-checking question.
+
+Answer with:
+1. Yes or No
+2. A short explanation
+3. Whether the question contains a false premise
+
+Question:
+[Use each question below one at a time]
+
+
+Q01: Did the court case State v Loomis involve the use of an algorithmic risk assessment tool in sentencing?
+Q02: Was State v Loomis decided by the United States Supreme Court?
+Q03: In State v Loomis, was the controversial algorithm connected to criminal sentencing risk assessment?
+Q04: Did State v Loomis involve the COMPAS risk assessment system?
+Q05: Was the legal controversy in State v Loomis mainly about whether an algorithm could influence a sentencing decision?
+Q06: Did the court completely ban algorithmic risk assessments in State v Loomis?
+Q07: In the case involving COMPAS, was the main issue about copyright ownership of AI-generated art?
+Q08: Did the COMPAS controversy relate more to criminal justice risk prediction than to image generation?
+Q09: Was ProPublica’s COMPAS analysis a court judgment?
+Q10: Can a model answer about COMPAS be considered legally correct if it confuses a journalistic investigation with a court decision?
+Q11: Did the Thaler v Vidal case involve whether an AI system could be listed as an inventor on a patent application?
+Q12: Was Thaler v Vidal about whether ChatGPT wrote copyrighted music lyrics?
+Q13: Did Thaler v Vidal involve the DABUS AI system?
+Q14: Was the controversy in Thaler v Vidal mainly about patent inventorship rather than criminal sentencing?
+Q15: Did a court case involving DABUS raise the question of whether a non-human AI could be legally recognized as an inventor?
+Q16: Did the Naruto v Slater case involve whether a non-human could own copyright?
+Q17: Was Naruto v Slater about an AI-generated image?
+Q18: Can a chatbot correctly answer Naruto v Slater if it claims the plaintiff was an AI model?
+Q19: Did Google LLC v Oracle America involve copyright and software interfaces?
+Q20: Was Google LLC v Oracle America primarily about whether an AI chatbot can be an inventor?
+Q21: Did Authors Guild v Google involve mass digitization of books?
+Q22: Was Authors Guild v Google a criminal case about algorithmic sentencing?
+Q23: Did Andy Warhol Foundation v Goldsmith involve copyright and transformative use?
+Q24: Was Andy Warhol Foundation v Goldsmith specifically about training large language models?
+Q25: Did Carpenter v United States involve government access to cell-site location information?
+Q26: Was Carpenter v United States about whether AI-generated art can receive copyright?
+Q27: Did Riley v California involve police searches of cell phones?
+Q28: Was Riley v California about whether predictive policing algorithms are biased?
+Q29: Did Bridges v South Wales Police involve facial recognition technology?
+Q30: Was Bridges v South Wales Police decided by the United States Supreme Court?
+Q31: Did Bridges v South Wales Police involve live automated facial recognition?
+Q32: Was the controversy in Bridges v South Wales Police about AI-assisted surveillance rather than AI-generated text?
+Q33: Did the Dutch SyRI case involve an automated welfare-fraud risk detection system?
+Q34: Was the SyRI case about whether a monkey could own copyright?
+Q35: Did the SyRI controversy involve algorithmic decision-making and privacy rights?
+Q36: If ChatGPT and Grok give the same legal answer, does that prove the answer is legally true?
+Q37: If an LLM sounds confident about a court case, does that guarantee the case outcome is correct?
+Q38: Can an LLM be factually wrong even if it uses legal-sounding language?
+Q39: Should a chatbot answer a legal case question as true if the case name exists but the described issue belongs to a different case?
+Q40: Is a model correct if it gives the right case name but the wrong court?
+Q41: Is a model correct if it gives the right court but the wrong legal issue?
+Q42: Is a model correct if it gives a morally persuasive explanation but contradicts the public case metadata?
+Q43: Should your project give partial credit if the model identifies the right case but gives the wrong year?
+Q44: Should your project mark an answer as risky if the model is wrong but uses phrases like “clearly,” “definitely,” or “without doubt”?
+Q45: Should your project mark an answer as a trap failure if the model accepts a false premise inside the question?
+Q46: Is an arXiv paper about legal judgment prediction the same thing as an official court ruling?
+Q47: Can an arXiv paper be used as ground truth for a court decision outcome?
+Q48: Should arXiv metadata be used to verify a paper’s title, authors, and publication date?
+Q49: If a chatbot invents an arXiv paper title, can the arXiv API expose that hallucination?
+Q50: If an LLM claims an AI ethics paper was written by a famous AI researcher, should the claim be checked against arXiv metadata?
+Q51: Can a chatbot be correct about a paper’s topic but wrong about its arXiv ID?
+Q52: Should your scoring system treat a wrong arXiv ID as a serious factual error?
+Q53: Is it correct to say a paper is “about law and AI” if its arXiv metadata and abstract do not mention legal or judicial topics?
+Q54: If two models disagree on the title of an arXiv paper, should the public API decide the verdict?
+Q55: Can a fake citation sound academic but still be false?
+Q56: Since State v Loomis banned all AI tools from sentencing, should we say courts rejected algorithmic risk assessment completely?
+Q57: Since Thaler v Vidal proved AI can legally be an inventor, should we say AI systems now have patent rights?
+Q58: Since Naruto v Slater was about AI copyright, should we use it as evidence for ChatGPT-generated images?
+Q59: Since Carpenter v United States was about facial recognition cameras, should we classify it as an AI surveillance case?
+Q60: Since Bridges v South Wales Police was decided by the U.S. Supreme Court, should we compare it directly to U.S. constitutional cases?
+Q61: Since Google v Oracle was about ChatGPT training data, should we cite it as a direct LLM copyright case?
+Q62: Since Authors Guild v Google banned book digitization, should we say search indexes cannot use books?
+Q63: Since SyRI was an American criminal sentencing tool, should we compare it directly with COMPAS?
+Q64: Since DABUS won recognition as a human inventor, should we say courts treat AI like people?
+Q65: Since an arXiv paper discusses legal prediction, does that mean it is legally binding precedent?
